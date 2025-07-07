@@ -1,0 +1,2609 @@
+{
+  "test_summary": {
+    "total_scenarios": 101,
+    "successful_tests": 101,
+    "failed_tests": 0,
+    "success_rate": 100.0
+  },
+  "performance_metrics": {
+    "average_response_time": 4.578399331116479,
+    "fastest_response": 4.066240072250366,
+    "slowest_response": 5.311745882034302,
+    "total_tests": 101,
+    "successful_tests": 101,
+    "success_rate": 100.0
+  },
+  "detailed_results": [
+    {
+      "scenario_id": 1,
+      "user_id": "05551234567",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Faturamı öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:03:37.159942",
+      "end_time": "2025-07-05T03:03:41.856159",
+      "total_time": 4.696217060089111,
+      "responses": [
+        {
+          "message": "Faturamı öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.696217060089111
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 2,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Bu ayki faturam ne kadar?",
+      "start_time": "2025-07-05T03:03:41.857038",
+      "end_time": "2025-07-05T03:03:46.473628",
+      "total_time": 4.616589784622192,
+      "responses": [
+        {
+          "message": "Bu ayki faturam ne kadar?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.616589784622192
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 3,
+      "user_id": "05551234567",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Son faturalarımı görebilir miyim?",
+      "start_time": "2025-07-05T03:03:46.474317",
+      "end_time": "2025-07-05T03:03:51.017549",
+      "total_time": 4.543232202529907,
+      "responses": [
+        {
+          "message": "Son faturalarımı görebilir miyim?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.543232202529907
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 4,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura borcum var mı?",
+      "start_time": "2025-07-05T03:03:51.018564",
+      "end_time": "2025-07-05T03:03:55.926953",
+      "total_time": 4.908388614654541,
+      "responses": [
+        {
+          "message": "Fatura borcum var mı?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.908388614654541
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 5,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Geçen ayki faturamı öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:03:55.927467",
+      "end_time": "2025-07-05T03:04:00.524248",
+      "total_time": 4.596781015396118,
+      "responses": [
+        {
+          "message": "Geçen ayki faturamı öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.596781015396118
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 6,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura detaylarını görmek istiyorum",
+      "start_time": "2025-07-05T03:04:00.524770",
+      "end_time": "2025-07-05T03:04:05.276311",
+      "total_time": 4.75154185295105,
+      "responses": [
+        {
+          "message": "Fatura detaylarını görmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.75154185295105
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 7,
+      "user_id": "05551112233",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Bu ay fatura ödemem gerekiyor mu?",
+      "start_time": "2025-07-05T03:04:05.276745",
+      "end_time": "2025-07-05T03:04:10.222561",
+      "total_time": 4.945815801620483,
+      "responses": [
+        {
+          "message": "Bu ay fatura ödemem gerekiyor mu?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.945815801620483
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 8,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura geçmişimi görebilir miyim?",
+      "start_time": "2025-07-05T03:04:10.223748",
+      "end_time": "2025-07-05T03:04:14.842526",
+      "total_time": 4.618777513504028,
+      "responses": [
+        {
+          "message": "Fatura geçmişimi görebilir miyim?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.618777513504028
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 9,
+      "user_id": "05551234567",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Son 3 ayın faturalarını öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:04:14.843030",
+      "end_time": "2025-07-05T03:04:19.754648",
+      "total_time": 4.911617994308472,
+      "responses": [
+        {
+          "message": "Son 3 ayın faturalarını öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.911617994308472
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 10,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura tutarımı kontrol etmek istiyorum",
+      "start_time": "2025-07-05T03:04:19.754648",
+      "end_time": "2025-07-05T03:04:24.611454",
+      "total_time": 4.856805801391602,
+      "responses": [
+        {
+          "message": "Fatura tutarımı kontrol etmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.856805801391602
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 11,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Ödenmemiş faturalarım var mı?",
+      "start_time": "2025-07-05T03:04:24.611961",
+      "end_time": "2025-07-05T03:04:29.419667",
+      "total_time": 4.807705402374268,
+      "responses": [
+        {
+          "message": "Ödenmemiş faturalarım var mı?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.807705402374268
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 12,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura ödeme tarihini öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:04:29.420531",
+      "end_time": "2025-07-05T03:04:34.138397",
+      "total_time": 4.71786642074585,
+      "responses": [
+        {
+          "message": "Fatura ödeme tarihini öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.71786642074585
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 13,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Bu ayki faturam ne zaman gelecek?",
+      "start_time": "2025-07-05T03:04:34.138910",
+      "end_time": "2025-07-05T03:04:38.672649",
+      "total_time": 4.533738851547241,
+      "responses": [
+        {
+          "message": "Bu ayki faturam ne zaman gelecek?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.533738851547241
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 14,
+      "user_id": "05551234567",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura bilgilerimi görmek istiyorum",
+      "start_time": "2025-07-05T03:04:38.673380",
+      "end_time": "2025-07-05T03:04:43.285444",
+      "total_time": 4.612063884735107,
+      "responses": [
+        {
+          "message": "Fatura bilgilerimi görmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.612063884735107
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 15,
+      "user_id": "05551234567",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Son fatura tutarımı öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:04:43.285968",
+      "end_time": "2025-07-05T03:04:47.816895",
+      "total_time": 4.530926942825317,
+      "responses": [
+        {
+          "message": "Son fatura tutarımı öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.530926942825317
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 16,
+      "user_id": "05551234567",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura ödemelerimi kontrol etmek istiyorum",
+      "start_time": "2025-07-05T03:04:47.816895",
+      "end_time": "2025-07-05T03:04:52.782952",
+      "total_time": 4.966057300567627,
+      "responses": [
+        {
+          "message": "Fatura ödemelerimi kontrol etmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.966057300567627
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 17,
+      "user_id": "05551112233",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Geçmiş faturalarımı görebilir miyim?",
+      "start_time": "2025-07-05T03:04:52.782952",
+      "end_time": "2025-07-05T03:04:57.365714",
+      "total_time": 4.582762002944946,
+      "responses": [
+        {
+          "message": "Geçmiş faturalarımı görebilir miyim?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.582762002944946
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 18,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura durumumu öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:04:57.366663",
+      "end_time": "2025-07-05T03:05:02.080507",
+      "total_time": 4.713843584060669,
+      "responses": [
+        {
+          "message": "Fatura durumumu öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.713843584060669
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 19,
+      "user_id": "05551234567",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Bu ay fatura ödemem gerekiyor mu?",
+      "start_time": "2025-07-05T03:05:02.080507",
+      "end_time": "2025-07-05T03:05:06.901885",
+      "total_time": 4.821378469467163,
+      "responses": [
+        {
+          "message": "Bu ay fatura ödemem gerekiyor mu?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.821378469467163
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 20,
+      "user_id": "05559876543",
+      "category": "fatura_sorgulama",
+      "difficulty": "kolay",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama - Fatura detaylarını öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:05:06.903366",
+      "end_time": "2025-07-05T03:05:11.550143",
+      "total_time": 4.64677619934082,
+      "responses": [
+        {
+          "message": "Fatura detaylarını öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.64677619934082
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 21,
+      "user_id": "05559876543",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Paketimi değiştirmek istiyorum",
+      "start_time": "2025-07-05T03:05:11.550765",
+      "end_time": "2025-07-05T03:05:16.434945",
+      "total_time": 4.8841798305511475,
+      "responses": [
+        {
+          "message": "Paketimi değiştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.8841798305511475
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 22,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Daha hızlı internet istiyorum",
+      "start_time": "2025-07-05T03:05:16.435537",
+      "end_time": "2025-07-05T03:05:20.534831",
+      "total_time": 4.099294424057007,
+      "responses": [
+        {
+          "message": "Daha hızlı internet istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.099294424057007
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 23,
+      "user_id": "05551234567",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Paket yükseltmek istiyorum",
+      "start_time": "2025-07-05T03:05:20.535298",
+      "end_time": "2025-07-05T03:05:25.309791",
+      "total_time": 4.774492979049683,
+      "responses": [
+        {
+          "message": "Paket yükseltmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.774492979049683
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 24,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Tarifemi değiştirmek istiyorum",
+      "start_time": "2025-07-05T03:05:25.310311",
+      "end_time": "2025-07-05T03:05:30.391684",
+      "total_time": 5.0813727378845215,
+      "responses": [
+        {
+          "message": "Tarifemi değiştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.0813727378845215
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 25,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Daha ekonomik paket var mı?",
+      "start_time": "2025-07-05T03:05:30.392260",
+      "end_time": "2025-07-05T03:05:35.545726",
+      "total_time": 5.15346622467041,
+      "responses": [
+        {
+          "message": "Daha ekonomik paket var mı?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.15346622467041
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 26,
+      "user_id": "05559876543",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - 5G paketine geçmek istiyorum",
+      "start_time": "2025-07-05T03:05:35.546105",
+      "end_time": "2025-07-05T03:05:40.857851",
+      "total_time": 5.311745882034302,
+      "responses": [
+        {
+          "message": "5G paketine geçmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.311745882034302
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 27,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Paket düşürmek istiyorum",
+      "start_time": "2025-07-05T03:05:40.858363",
+      "end_time": "2025-07-05T03:05:45.924798",
+      "total_time": 5.06643533706665,
+      "responses": [
+        {
+          "message": "Paket düşürmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.0658605098724365
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 28,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Hangi paketler mevcut?",
+      "start_time": "2025-07-05T03:05:45.924798",
+      "end_time": "2025-07-05T03:05:50.717381",
+      "total_time": 4.792583703994751,
+      "responses": [
+        {
+          "message": "Hangi paketler mevcut?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.792583703994751
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 29,
+      "user_id": "05551234567",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Aile paketi istiyorum",
+      "start_time": "2025-07-05T03:05:50.718032",
+      "end_time": "2025-07-05T03:05:55.272456",
+      "total_time": 4.554424285888672,
+      "responses": [
+        {
+          "message": "Aile paketi istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.554424285888672
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 30,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Öğrenci paketine geçmek istiyorum",
+      "start_time": "2025-07-05T03:05:55.273925",
+      "end_time": "2025-07-05T03:06:00.395273",
+      "total_time": 5.121348142623901,
+      "responses": [
+        {
+          "message": "Öğrenci paketine geçmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.121348142623901
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 31,
+      "user_id": "05559876543",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Sınırsız internet paketi istiyorum",
+      "start_time": "2025-07-05T03:06:00.396649",
+      "end_time": "2025-07-05T03:06:05.431178",
+      "total_time": 5.034528732299805,
+      "responses": [
+        {
+          "message": "Sınırsız internet paketi istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.034528732299805
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 32,
+      "user_id": "05551234567",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Paket önerileriniz neler?",
+      "start_time": "2025-07-05T03:06:05.431722",
+      "end_time": "2025-07-05T03:06:10.486984",
+      "total_time": 5.055262088775635,
+      "responses": [
+        {
+          "message": "Paket önerileriniz neler?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.055262088775635
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 33,
+      "user_id": "05551234567",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Mevcut paketimden memnun değilim",
+      "start_time": "2025-07-05T03:06:10.486984",
+      "end_time": "2025-07-05T03:06:15.385535",
+      "total_time": 4.898550987243652,
+      "responses": [
+        {
+          "message": "Mevcut paketimden memnun değilim",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.898550987243652
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 34,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Daha uygun fiyatlı paket var mı?",
+      "start_time": "2025-07-05T03:06:15.386049",
+      "end_time": "2025-07-05T03:06:20.667161",
+      "total_time": 5.2811119556427,
+      "responses": [
+        {
+          "message": "Daha uygun fiyatlı paket var mı?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.2811119556427
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 35,
+      "user_id": "05559876543",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Paket karşılaştırması yapabilir misiniz?",
+      "start_time": "2025-07-05T03:06:20.667674",
+      "end_time": "2025-07-05T03:06:25.375559",
+      "total_time": 4.707884788513184,
+      "responses": [
+        {
+          "message": "Paket karşılaştırması yapabilir misiniz?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.707884788513184
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 36,
+      "user_id": "05551234567",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Premium pakete geçmek istiyorum",
+      "start_time": "2025-07-05T03:06:25.376079",
+      "end_time": "2025-07-05T03:06:30.291066",
+      "total_time": 4.9149863719940186,
+      "responses": [
+        {
+          "message": "Premium pakete geçmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.9149863719940186
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 37,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Ekonomik paket önerisi istiyorum",
+      "start_time": "2025-07-05T03:06:30.291822",
+      "end_time": "2025-07-05T03:06:35.334136",
+      "total_time": 5.042313575744629,
+      "responses": [
+        {
+          "message": "Ekonomik paket önerisi istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.042313575744629
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 38,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Paket değişikliği yapabilir miyim?",
+      "start_time": "2025-07-05T03:06:35.334743",
+      "end_time": "2025-07-05T03:06:40.289765",
+      "total_time": 4.95502233505249,
+      "responses": [
+        {
+          "message": "Paket değişikliği yapabilir miyim?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.95502233505249
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 39,
+      "user_id": "05559876543",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Hangi paket bana uygun?",
+      "start_time": "2025-07-05T03:06:40.290294",
+      "end_time": "2025-07-05T03:06:44.832700",
+      "total_time": 4.542405605316162,
+      "responses": [
+        {
+          "message": "Hangi paket bana uygun?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.542405605316162
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 40,
+      "user_id": "05551112233",
+      "category": "paket_degistirme",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket değiştirme - Paket bilgilerini görmek istiyorum",
+      "start_time": "2025-07-05T03:06:44.834333",
+      "end_time": "2025-07-05T03:06:50.037937",
+      "total_time": 5.203603506088257,
+      "responses": [
+        {
+          "message": "Paket bilgilerini görmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.203603506088257
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 41,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - İnternet hızım çok yavaş",
+      "start_time": "2025-07-05T03:06:50.038807",
+      "end_time": "2025-07-05T03:06:54.178848",
+      "total_time": 4.140040397644043,
+      "responses": [
+        {
+          "message": "İnternet hızım çok yavaş",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.140040397644043
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 42,
+      "user_id": "05551112233",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Bağlantı sorunu yaşıyorum",
+      "start_time": "2025-07-05T03:06:54.178848",
+      "end_time": "2025-07-05T03:06:58.272657",
+      "total_time": 4.0938098430633545,
+      "responses": [
+        {
+          "message": "Bağlantı sorunu yaşıyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.0938098430633545
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 43,
+      "user_id": "05551234567",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - İnternet kesiliyor",
+      "start_time": "2025-07-05T03:06:58.273398",
+      "end_time": "2025-07-05T03:07:02.362384",
+      "total_time": 4.0889856815338135,
+      "responses": [
+        {
+          "message": "İnternet kesiliyor",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.0889856815338135
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 44,
+      "user_id": "05551112233",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - WiFi şifremi unuttum",
+      "start_time": "2025-07-05T03:07:02.362898",
+      "end_time": "2025-07-05T03:07:07.295495",
+      "total_time": 4.9325971603393555,
+      "responses": [
+        {
+          "message": "WiFi şifremi unuttum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.9325971603393555
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 45,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Modem çalışmıyor",
+      "start_time": "2025-07-05T03:07:07.298013",
+      "end_time": "2025-07-05T03:07:11.402205",
+      "total_time": 4.104192495346069,
+      "responses": [
+        {
+          "message": "Modem çalışmıyor",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.104192495346069
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 46,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - İnternet bağlantım yok",
+      "start_time": "2025-07-05T03:07:11.402720",
+      "end_time": "2025-07-05T03:07:15.518240",
+      "total_time": 4.115520715713501,
+      "responses": [
+        {
+          "message": "İnternet bağlantım yok",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.115520715713501
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 47,
+      "user_id": "05551112233",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Hız testi yapabilir misiniz?",
+      "start_time": "2025-07-05T03:07:15.518965",
+      "end_time": "2025-07-05T03:07:19.605544",
+      "total_time": 4.086578845977783,
+      "responses": [
+        {
+          "message": "Hız testi yapabilir misiniz?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.086578845977783
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 48,
+      "user_id": "05551112233",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Teknik sorun yaşıyorum",
+      "start_time": "2025-07-05T03:07:19.606133",
+      "end_time": "2025-07-05T03:07:23.735025",
+      "total_time": 4.128892183303833,
+      "responses": [
+        {
+          "message": "Teknik sorun yaşıyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.128892183303833
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 49,
+      "user_id": "05551234567",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - İnternet yavaş geliyor",
+      "start_time": "2025-07-05T03:07:23.735634",
+      "end_time": "2025-07-05T03:07:27.833414",
+      "total_time": 4.097780704498291,
+      "responses": [
+        {
+          "message": "İnternet yavaş geliyor",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.097780704498291
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 50,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Bağlantı problemi var",
+      "start_time": "2025-07-05T03:07:27.833930",
+      "end_time": "2025-07-05T03:07:31.975371",
+      "total_time": 4.141441106796265,
+      "responses": [
+        {
+          "message": "Bağlantı problemi var",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.141441106796265
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 51,
+      "user_id": "05551112233",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Modem ışıkları yanmıyor",
+      "start_time": "2025-07-05T03:07:31.977167",
+      "end_time": "2025-07-05T03:07:36.069506",
+      "total_time": 4.092338800430298,
+      "responses": [
+        {
+          "message": "Modem ışıkları yanmıyor",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.092338800430298
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 52,
+      "user_id": "05551234567",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - İnternet sürekli kesiliyor",
+      "start_time": "2025-07-05T03:07:36.070263",
+      "end_time": "2025-07-05T03:07:40.197802",
+      "total_time": 4.127539157867432,
+      "responses": [
+        {
+          "message": "İnternet sürekli kesiliyor",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.127539157867432
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 53,
+      "user_id": "05551112233",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Hız sorunu yaşıyorum",
+      "start_time": "2025-07-05T03:07:40.198476",
+      "end_time": "2025-07-05T03:07:44.295017",
+      "total_time": 4.096540927886963,
+      "responses": [
+        {
+          "message": "Hız sorunu yaşıyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.096540927886963
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 54,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Bağlantı kalitesi kötü",
+      "start_time": "2025-07-05T03:07:44.295526",
+      "end_time": "2025-07-05T03:07:48.361767",
+      "total_time": 4.066240072250366,
+      "responses": [
+        {
+          "message": "Bağlantı kalitesi kötü",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.066240072250366
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 55,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Teknik destek istiyorum",
+      "start_time": "2025-07-05T03:07:48.362279",
+      "end_time": "2025-07-05T03:07:52.459034",
+      "total_time": 4.096755504608154,
+      "responses": [
+        {
+          "message": "Teknik destek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.096755504608154
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 56,
+      "user_id": "05551234567",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - İnternet problemi var",
+      "start_time": "2025-07-05T03:07:52.459729",
+      "end_time": "2025-07-05T03:07:56.561562",
+      "total_time": 4.101832628250122,
+      "responses": [
+        {
+          "message": "İnternet problemi var",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.101832628250122
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 57,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Modem ayarlarını değiştirmek istiyorum",
+      "start_time": "2025-07-05T03:07:56.562071",
+      "end_time": "2025-07-05T03:08:01.373759",
+      "total_time": 4.811687707901001,
+      "responses": [
+        {
+          "message": "Modem ayarlarını değiştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.811687707901001
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 58,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Bağlantı sorunumu çözmek istiyorum",
+      "start_time": "2025-07-05T03:08:01.374271",
+      "end_time": "2025-07-05T03:08:05.480543",
+      "total_time": 4.106271505355835,
+      "responses": [
+        {
+          "message": "Bağlantı sorunumu çözmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.106271505355835
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 59,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - İnternet hızımı artırmak istiyorum",
+      "start_time": "2025-07-05T03:08:05.481034",
+      "end_time": "2025-07-05T03:08:09.579667",
+      "total_time": 4.098633527755737,
+      "responses": [
+        {
+          "message": "İnternet hızımı artırmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.098633527755737
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 60,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Teknik yardım istiyorum",
+      "start_time": "2025-07-05T03:08:09.580329",
+      "end_time": "2025-07-05T03:08:13.662131",
+      "total_time": 4.081802129745483,
+      "responses": [
+        {
+          "message": "Teknik yardım istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.081802129745483
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 61,
+      "user_id": "05559876543",
+      "category": "teknik_destek",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Teknik destek - Bağlantı problemi yaşıyorum",
+      "start_time": "2025-07-05T03:08:13.663514",
+      "end_time": "2025-07-05T03:08:17.761542",
+      "total_time": 4.098027467727661,
+      "responses": [
+        {
+          "message": "Bağlantı problemi yaşıyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.098027467727661
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 61,
+      "user_id": "05551234567",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Faturamı ödemek istiyorum",
+      "start_time": "2025-07-05T03:08:17.761542",
+      "end_time": "2025-07-05T03:08:22.544174",
+      "total_time": 4.782632112503052,
+      "responses": [
+        {
+          "message": "Faturamı ödemek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.782632112503052
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 62,
+      "user_id": "05551112233",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Online ödeme yapmak istiyorum",
+      "start_time": "2025-07-05T03:08:22.544799",
+      "end_time": "2025-07-05T03:08:27.260630",
+      "total_time": 4.715831518173218,
+      "responses": [
+        {
+          "message": "Online ödeme yapmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.715831518173218
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 63,
+      "user_id": "05551234567",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Kredi kartı ile ödeme",
+      "start_time": "2025-07-05T03:08:27.260630",
+      "end_time": "2025-07-05T03:08:32.059134",
+      "total_time": 4.798503875732422,
+      "responses": [
+        {
+          "message": "Kredi kartı ile ödeme",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.798503875732422
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 64,
+      "user_id": "05551112233",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Banka kartı ile ödeme yapabilir miyim?",
+      "start_time": "2025-07-05T03:08:32.059767",
+      "end_time": "2025-07-05T03:08:36.947946",
+      "total_time": 4.888179302215576,
+      "responses": [
+        {
+          "message": "Banka kartı ile ödeme yapabilir miyim?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.888179302215576
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 65,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Otomatik ödeme kurmak istiyorum",
+      "start_time": "2025-07-05T03:08:36.947946",
+      "end_time": "2025-07-05T03:08:41.755869",
+      "total_time": 4.807922601699829,
+      "responses": [
+        {
+          "message": "Otomatik ödeme kurmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.807922601699829
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 66,
+      "user_id": "05551112233",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Ödeme planı yapmak istiyorum",
+      "start_time": "2025-07-05T03:08:41.756551",
+      "end_time": "2025-07-05T03:08:46.605960",
+      "total_time": 4.849408864974976,
+      "responses": [
+        {
+          "message": "Ödeme planı yapmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.849408864974976
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 67,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Taksitli ödeme seçeneği var mı?",
+      "start_time": "2025-07-05T03:08:46.606473",
+      "end_time": "2025-07-05T03:08:51.355067",
+      "total_time": 4.748593091964722,
+      "responses": [
+        {
+          "message": "Taksitli ödeme seçeneği var mı?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.748593091964722
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 68,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Fatura ödememi yapmak istiyorum",
+      "start_time": "2025-07-05T03:08:51.355642",
+      "end_time": "2025-07-05T03:08:56.073692",
+      "total_time": 4.718049049377441,
+      "responses": [
+        {
+          "message": "Fatura ödememi yapmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.718049049377441
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 69,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Ödeme yöntemlerini öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:08:56.073692",
+      "end_time": "2025-07-05T03:09:00.833514",
+      "total_time": 4.759822845458984,
+      "responses": [
+        {
+          "message": "Ödeme yöntemlerini öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.759822845458984
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 70,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Kredi kartı bilgilerimi güncellemek istiyorum",
+      "start_time": "2025-07-05T03:09:00.834061",
+      "end_time": "2025-07-05T03:09:04.922303",
+      "total_time": 4.0882415771484375,
+      "responses": [
+        {
+          "message": "Kredi kartı bilgilerimi güncellemek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.0882415771484375
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 71,
+      "user_id": "05551112233",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Otomatik ödeme iptal etmek istiyorum",
+      "start_time": "2025-07-05T03:09:04.923081",
+      "end_time": "2025-07-05T03:09:09.438656",
+      "total_time": 4.515575408935547,
+      "responses": [
+        {
+          "message": "Otomatik ödeme iptal etmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.515575408935547
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 72,
+      "user_id": "05551234567",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Ödeme geçmişimi görmek istiyorum",
+      "start_time": "2025-07-05T03:09:09.439312",
+      "end_time": "2025-07-05T03:09:14.538033",
+      "total_time": 5.098721265792847,
+      "responses": [
+        {
+          "message": "Ödeme geçmişimi görmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.098721265792847
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 73,
+      "user_id": "05551234567",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Fatura ödememi yapmak istiyorum",
+      "start_time": "2025-07-05T03:09:14.538634",
+      "end_time": "2025-07-05T03:09:19.339668",
+      "total_time": 4.801034688949585,
+      "responses": [
+        {
+          "message": "Fatura ödememi yapmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.801034688949585
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 74,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Ödeme seçeneklerini öğrenmek istiyorum",
+      "start_time": "2025-07-05T03:09:19.340222",
+      "end_time": "2025-07-05T03:09:24.373889",
+      "total_time": 5.03366756439209,
+      "responses": [
+        {
+          "message": "Ödeme seçeneklerini öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.03366756439209
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 75,
+      "user_id": "05551234567",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Kredi kartı ile ödeme yapmak istiyorum",
+      "start_time": "2025-07-05T03:09:24.374402",
+      "end_time": "2025-07-05T03:09:29.340155",
+      "total_time": 4.965753078460693,
+      "responses": [
+        {
+          "message": "Kredi kartı ile ödeme yapmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.965753078460693
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 76,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Banka havalesi ile ödeme",
+      "start_time": "2025-07-05T03:09:29.340890",
+      "end_time": "2025-07-05T03:09:34.315631",
+      "total_time": 4.974740743637085,
+      "responses": [
+        {
+          "message": "Banka havalesi ile ödeme",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.974740743637085
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 77,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Ödeme planı değiştirmek istiyorum",
+      "start_time": "2025-07-05T03:09:34.316143",
+      "end_time": "2025-07-05T03:09:38.939300",
+      "total_time": 4.623156785964966,
+      "responses": [
+        {
+          "message": "Ödeme planı değiştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.623156785964966
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 78,
+      "user_id": "05559876543",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Fatura ödememi yapmak istiyorum",
+      "start_time": "2025-07-05T03:09:38.939653",
+      "end_time": "2025-07-05T03:09:43.664523",
+      "total_time": 4.724869728088379,
+      "responses": [
+        {
+          "message": "Fatura ödememi yapmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.724869728088379
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 79,
+      "user_id": "05551234567",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Ödeme yöntemi değiştirmek istiyorum",
+      "start_time": "2025-07-05T03:09:43.665521",
+      "end_time": "2025-07-05T03:09:48.351202",
+      "total_time": 4.685680627822876,
+      "responses": [
+        {
+          "message": "Ödeme yöntemi değiştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.685680627822876
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 80,
+      "user_id": "05551112233",
+      "category": "odeme_islemleri",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Ödeme işlemi - Otomatik ödeme kurmak istiyorum",
+      "start_time": "2025-07-05T03:09:48.351895",
+      "end_time": "2025-07-05T03:09:53.048143",
+      "total_time": 4.6962480545043945,
+      "responses": [
+        {
+          "message": "Otomatik ödeme kurmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.6962480545043945
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 81,
+      "user_id": "05551234567",
+      "category": "karmaşık_ödeme",
+      "difficulty": "zor",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "odeme_islem"
+      ],
+      "description": "Fatura sorgulama + Ödeme işlemi",
+      "start_time": "2025-07-05T03:09:53.048705",
+      "end_time": "2025-07-05T03:10:02.255224",
+      "total_time": 9.206518650054932,
+      "responses": [
+        {
+          "message": "Faturamı öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.53391170501709
+        },
+        {
+          "message": "Bu faturayı şimdi ödemek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.672606945037842
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 82,
+      "user_id": "05559876543",
+      "category": "karmaşık_paket",
+      "difficulty": "zor",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al",
+        "paket_degistir"
+      ],
+      "description": "Paket sorgulama + Değiştirme",
+      "start_time": "2025-07-05T03:10:02.255740",
+      "end_time": "2025-07-05T03:10:12.175426",
+      "total_time": 9.919686794281006,
+      "responses": [
+        {
+          "message": "Hangi paketler mevcut?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.760602712631226
+        },
+        {
+          "message": "Premium 5G paketine geçmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.15908408164978
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 83,
+      "user_id": "05551112233",
+      "category": "karmaşık_teknik",
+      "difficulty": "zor",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur",
+        "bilgi_tabanı_ara"
+      ],
+      "description": "Teknik sorun + Çözüm arama",
+      "start_time": "2025-07-05T03:10:12.176870",
+      "end_time": "2025-07-05T03:10:20.416817",
+      "total_time": 8.240463733673096,
+      "responses": [
+        {
+          "message": "İnternet hızım çok yavaş",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.11148738861084
+        },
+        {
+          "message": "Bu sorunu çözmek için ne yapabilirim?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.127443790435791
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 84,
+      "user_id": "05551234567",
+      "category": "karmaşık_güvenlik",
+      "difficulty": "orta",
+      "expected_intent": "sifre_sifirla",
+      "expected_tools": [
+        "sifre_sifirla",
+        "musteri_bilgi_al"
+      ],
+      "description": "Şifre sıfırlama + Güvenlik kontrolü",
+      "start_time": "2025-07-05T03:10:20.417556",
+      "end_time": "2025-07-05T03:10:29.308528",
+      "total_time": 8.890972375869751,
+      "responses": [
+        {
+          "message": "Şifremi unuttum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.8100244998931885
+        },
+        {
+          "message": "Güvenlik ayarlarımı da kontrol etmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.0809478759765625
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 85,
+      "user_id": "05559876543",
+      "category": "karmaşık_sözleşme",
+      "difficulty": "zor",
+      "expected_intent": "sozlesme_yenile",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "sozlesme_bilgi_al"
+      ],
+      "description": "Sözleşme sorgulama + Yenileme",
+      "start_time": "2025-07-05T03:10:29.309213",
+      "end_time": "2025-07-05T03:10:37.596049",
+      "total_time": 8.286836385726929,
+      "responses": [
+        {
+          "message": "Sözleşme bilgilerimi öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.172953128814697
+        },
+        {
+          "message": "Sözleşmemi yenilemek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.1138832569122314
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 86,
+      "user_id": "05551112233",
+      "category": "karmaşık_hizmet",
+      "difficulty": "zor",
+      "expected_intent": "hizmet_aktifleştir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "hizmet_aktifleştir",
+        "paket_listesi_al"
+      ],
+      "description": "Hizmet aktivasyonu + Paket değişikliği",
+      "start_time": "2025-07-05T03:10:37.596815",
+      "end_time": "2025-07-05T03:10:46.565155",
+      "total_time": 8.968340158462524,
+      "responses": [
+        {
+          "message": "TV hizmeti eklemek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.1129515171051025
+        },
+        {
+          "message": "Paketimi de değiştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.855388641357422
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 87,
+      "user_id": "05551234567",
+      "category": "karmaşık_şikayet",
+      "difficulty": "zor",
+      "expected_intent": "sikayet",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Fatura itirazı + Şikayet süreci",
+      "start_time": "2025-07-05T03:10:46.565859",
+      "end_time": "2025-07-05T03:10:55.368268",
+      "total_time": 8.802408933639526,
+      "responses": [
+        {
+          "message": "Bu fatura çok yüksek",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.697380542755127
+        },
+        {
+          "message": "İtiraz etmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.105028390884399
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 88,
+      "user_id": "05559876543",
+      "category": "karmaşık_hizmet_sorgulama",
+      "difficulty": "orta",
+      "expected_intent": "musteri_bilgi",
+      "expected_tools": [
+        "musteri_bilgi_al"
+      ],
+      "description": "Çoklu hizmet sorgulama",
+      "start_time": "2025-07-05T03:10:55.369868",
+      "end_time": "2025-07-05T03:11:03.612157",
+      "total_time": 8.242289781570435,
+      "responses": [
+        {
+          "message": "Tüm hizmetlerimi görmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.114604711532593
+        },
+        {
+          "message": "Hangi hizmetler aktif?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.127685070037842
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 89,
+      "user_id": "05551112233",
+      "category": "karmaşık_ödeme_paket",
+      "difficulty": "zor",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Ödeme planı + Paket değişikliği",
+      "start_time": "2025-07-05T03:11:03.612769",
+      "end_time": "2025-07-05T03:11:13.622357",
+      "total_time": 10.009587287902832,
+      "responses": [
+        {
+          "message": "Ödeme planı yapmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.890612363815308
+        },
+        {
+          "message": "Aynı zamanda paketimi değiştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.118974924087524
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 90,
+      "user_id": "05551234567",
+      "category": "karmaşık_acil",
+      "difficulty": "zor",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Acil durum + Teknik destek",
+      "start_time": "2025-07-05T03:11:13.622872",
+      "end_time": "2025-07-05T03:11:21.836186",
+      "total_time": 8.213314056396484,
+      "responses": [
+        {
+          "message": "İnternet hiç çalışmıyor",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.102900505065918
+        },
+        {
+          "message": "Acil yardım istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.110413551330566
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 91,
+      "user_id": "05559876543",
+      "category": "karmaşık_bilgi_aksiyon",
+      "difficulty": "orta",
+      "expected_intent": "hizmet_aktifleştir",
+      "expected_tools": [
+        "bilgi_tabanı_ara",
+        "musteri_bilgi_al",
+        "hizmet_aktifleştir"
+      ],
+      "description": "Bilgi sorgulama + Hizmet aktivasyonu",
+      "start_time": "2025-07-05T03:11:21.836703",
+      "end_time": "2025-07-05T03:11:30.076941",
+      "total_time": 8.240237712860107,
+      "responses": [
+        {
+          "message": "5G hizmeti hakkında bilgi istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.114609956741333
+        },
+        {
+          "message": "Bu hizmeti aktifleştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.125627756118774
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 92,
+      "user_id": "05551112233",
+      "category": "karmaşık_indirim",
+      "difficulty": "orta",
+      "expected_intent": "sikayet",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Fatura sorgulama + İndirim talebi",
+      "start_time": "2025-07-05T03:11:30.077612",
+      "end_time": "2025-07-05T03:11:39.162544",
+      "total_time": 9.085928440093994,
+      "responses": [
+        {
+          "message": "Faturamı öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.972163915634155
+        },
+        {
+          "message": "İndirim yapabilir misiniz?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.112768173217773
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 93,
+      "user_id": "05551234567",
+      "category": "karmaşık_karşılaştırma",
+      "difficulty": "orta",
+      "expected_intent": "paket_degistir",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Paket karşılaştırma + Seçim",
+      "start_time": "2025-07-05T03:11:39.164278",
+      "end_time": "2025-07-05T03:11:49.103387",
+      "total_time": 9.939108848571777,
+      "responses": [
+        {
+          "message": "Paketleri karşılaştırmak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.751402378082275
+        },
+        {
+          "message": "En uygun paketi seçmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 5.187706470489502
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 94,
+      "user_id": "05559876543",
+      "category": "karmaşık_güvenlik_şifre",
+      "difficulty": "orta",
+      "expected_intent": "sifre_sifirla",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "sifre_sifirla"
+      ],
+      "description": "Güvenlik kontrolü + Şifre değişikliği",
+      "start_time": "2025-07-05T03:11:49.103387",
+      "end_time": "2025-07-05T03:11:57.992775",
+      "total_time": 8.889387845993042,
+      "responses": [
+        {
+          "message": "Hesabımın güvenliğini kontrol etmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.084059953689575
+        },
+        {
+          "message": "Şifremi değiştirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.805327892303467
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 95,
+      "user_id": "05551112233",
+      "category": "karmaşık_çoklu_sorun",
+      "difficulty": "zor",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Çoklu sorun + Çözüm arama",
+      "start_time": "2025-07-05T03:11:57.993313",
+      "end_time": "2025-07-05T03:12:07.032496",
+      "total_time": 9.039183616638184,
+      "responses": [
+        {
+          "message": "Hem internet hem fatura sorunum var",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.89482855796814
+        },
+        {
+          "message": "Her ikisini de çözmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.144355058670044
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 96,
+      "user_id": "05551234567",
+      "category": "karmaşık_bilgi_uygulama",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "bilgi_tabanı_ara",
+        "musteri_bilgi_al"
+      ],
+      "description": "Bilgi alma + Uygulama",
+      "start_time": "2025-07-05T03:12:07.033041",
+      "end_time": "2025-07-05T03:12:15.298768",
+      "total_time": 8.265726804733276,
+      "responses": [
+        {
+          "message": "İnternet hızını artırma yöntemlerini öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.126592636108398
+        },
+        {
+          "message": "Bu yöntemleri uygulamak istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.139134168624878
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 97,
+      "user_id": "05559876543",
+      "category": "karmaşık_ödeme_doğrulama",
+      "difficulty": "orta",
+      "expected_intent": "odeme",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Ödeme + Doğrulama",
+      "start_time": "2025-07-05T03:12:15.299276",
+      "end_time": "2025-07-05T03:12:24.957972",
+      "total_time": 9.658696413040161,
+      "responses": [
+        {
+          "message": "Faturamı ödedim",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.708189010620117
+        },
+        {
+          "message": "Ödemenin alındığını doğrulayabilir misiniz?",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.950507402420044
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 98,
+      "user_id": "05551112233",
+      "category": "karmaşık_hizmet_sorun",
+      "difficulty": "orta",
+      "expected_intent": "teknik_destek",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "ticket_olustur"
+      ],
+      "description": "Hizmet sorunu + Bildirim",
+      "start_time": "2025-07-05T03:12:24.959502",
+      "end_time": "2025-07-05T03:12:33.218831",
+      "total_time": 8.259329319000244,
+      "responses": [
+        {
+          "message": "TV hizmetim çalışmıyor",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.122993230819702
+        },
+        {
+          "message": "Bu sorunu bildirmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.136336088180542
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 99,
+      "user_id": "05551234567",
+      "category": "karmaşık_paket_fatura",
+      "difficulty": "orta",
+      "expected_intent": "fatura_sorgula",
+      "expected_tools": [
+        "musteri_bilgi_al",
+        "fatura_bilgi_al"
+      ],
+      "description": "Paket değişikliği + Fatura sorgulama",
+      "start_time": "2025-07-05T03:12:33.219628",
+      "end_time": "2025-07-05T03:12:42.438693",
+      "total_time": 9.219064474105835,
+      "responses": [
+        {
+          "message": "Paketimi değiştirdim",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.683807849884033
+        },
+        {
+          "message": "Yeni faturamı öğrenmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.535256624221802
+        }
+      ],
+      "success": true,
+      "error": null
+    },
+    {
+      "scenario_id": 100,
+      "user_id": "05559876543",
+      "category": "karmaşık_genel_aksiyon",
+      "difficulty": "zor",
+      "expected_intent": "genel_soru",
+      "expected_tools": [
+        "bilgi_tabanı_ara",
+        "musteri_bilgi_al",
+        "paket_listesi_al"
+      ],
+      "description": "Genel bilgi + Paket seçimi",
+      "start_time": "2025-07-05T03:12:42.439739",
+      "end_time": "2025-07-05T03:12:51.214039",
+      "total_time": 8.774299621582031,
+      "responses": [
+        {
+          "message": "Tüm hizmetleriniz hakkında bilgi istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.118085145950317
+        },
+        {
+          "message": "En uygun paketi seçmek istiyorum",
+          "response": "Ollama bağlantı hatası: 404 Client Error: Not Found for url: http://localhost:11434/api/generate",
+          "response_time": 4.656214475631714
+        }
+      ],
+      "success": true,
+      "error": null
+    }
+  ],
+  "scenario_statistics": {
+    "toplam_senaryo": 101,
+    "zorluk_dağılımı": {
+      "kolay": 20,
+      "orta": 71,
+      "zor": 10
+    },
+    "kategori_dağılımı": {
+      "fatura_sorgulama": 20,
+      "paket_degistirme": 20,
+      "teknik_destek": 21,
+      "odeme_islemleri": 20,
+      "karmaşık_ödeme": 1,
+      "karmaşık_paket": 1,
+      "karmaşık_teknik": 1,
+      "karmaşık_güvenlik": 1,
+      "karmaşık_sözleşme": 1,
+      "karmaşık_hizmet": 1,
+      "karmaşık_şikayet": 1,
+      "karmaşık_hizmet_sorgulama": 1,
+      "karmaşık_ödeme_paket": 1,
+      "karmaşık_acil": 1,
+      "karmaşık_bilgi_aksiyon": 1,
+      "karmaşık_indirim": 1,
+      "karmaşık_karşılaştırma": 1,
+      "karmaşık_güvenlik_şifre": 1,
+      "karmaşık_çoklu_sorun": 1,
+      "karmaşık_bilgi_uygulama": 1,
+      "karmaşık_ödeme_doğrulama": 1,
+      "karmaşık_hizmet_sorun": 1,
+      "karmaşık_paket_fatura": 1,
+      "karmaşık_genel_aksiyon": 1
+    },
+    "müşteri_dağılımı": {
+      "05551234567": 29,
+      "05559876543": 43,
+      "05551112233": 29
+    }
+  }
+}

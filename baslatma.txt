@@ -1,0 +1,8 @@
+mongo db olan klasorde:
+C:\Program Files\MongoDB\Server\8.0\bin>mongod.exe
+
+herhangi bi yerde:
+C:\Users\pc>ollama serve
+
+src'nin içinde:
+streamlit run app.py
